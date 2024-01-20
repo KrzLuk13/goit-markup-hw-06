@@ -837,7 +837,6 @@ img {
   fill: var(--color-iris);
 }
 
-.modal-form-input:hover + .modal-form-icon,
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--color-iris);
 }
