@@ -341,6 +341,18 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .section-two-list {
   display: flex;
@@ -919,7 +931,7 @@ img {
 }
 
 .checkbox-input:checked + .modal-form-check .modal-checkbox {
-  background-color: var(--ocean);
+  background-color: var(--color-ocean);
   border: none;
-  fill: var(--cloud);
+  fill: var(--color-cloud);
 }
