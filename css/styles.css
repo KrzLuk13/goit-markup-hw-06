@@ -545,6 +545,7 @@ img {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
 }
+
 .footer {
   display: flex;
   align-items: baseline;
@@ -836,6 +837,10 @@ img {
   fill: var(--color-iris);
 }
 
+.modal-form-input:hover + .modal-form-icon,
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--color-iris);
+}
 .label-container {
   position: relative;
 }
@@ -858,7 +863,7 @@ img {
 
 .modal-form-input:active,
 .modal-form-input:focus {
-  border: 1px solid var(--iris);
+  border: 1px solid var(--color-iris);
   outline: none;
 }
 .modal-form-check {
