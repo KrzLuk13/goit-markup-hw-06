@@ -545,10 +545,7 @@ img {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
 }
-.footer-subscribe-position {
-  display: flex;
-  align-items: baseline;
-}
+
 .footer {
   display: flex;
   align-items: baseline;
